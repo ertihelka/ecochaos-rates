@@ -1,0 +1,100 @@
+---
+title: "Uncertainty in the prevalance of ecological chaos"
+author: "Erik Tihelka"
+date: '2022-07-09'
+output: html_document
+---
+
+Re-examining the prevalence of chaos in ecological time series, after Rogers et al. (*Nat. Ecol. Evol.*, 2022), while accounting for uncertainty in false positive and false negative rates of chaos detection methods.
+
+## Initial Setup
+
+```{r, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+library(rstan)
+library(rstudioapi)
+options(mc.cores = parallel::detectCores())
+```
+
+## Shortest posterior interval
+
+Define the shortest posterior interval, which is more sensible than a central interval because of the skewness of the posterior and the hard boundary at 0. It is equivalent to the highest posterior density interval for unimodal posteriors.
+
+Code and commentary adapted from Gelman & Carpenter (*Appl. Statist.*,
+2020, pp. 1269–1283).
+
+```{r}
+spin <- function(x, lower=NULL, upper=NULL, conf=0.95){
+  x <- sort(as.vector(x))
+  if (!is.null(lower)) {
+    if (lower > min(x)) stop("lower bound is not lower than all the data")
+    else x <- c(lower, x)
+  }
+  if (!is.null(upper)) {
+    if (upper < max(x)) stop("upper bound is not higher than all the data")
+    else x <- c(x, upper)
+  }
+  n <- length(x)
+  gap <- round(conf*n)
+  width <- x[(gap+1):n] - x[1:(n-gap)]
+  index <- min(which(width==min(width)))
+  x[c(index, index + gap)]
+}
+```
+
+## Bayesian analysis
+
+Build a simple Bayesian model where the false positive $f_p$ and false negative $f_n$ rates are uncertain. We will use a beta distribution to model uncertainty of the both false positive and false negative probabilities. 
+
+```{r}
+stan.input2 <- function(y=58, n=172, alpha=1, beta=1, an=9.35, bn=22.40,  ap=0.28, bp=1.51, nchains=4)
+{
+  inits <- list()
+  bugs.data <- list(y=y, n=n, alpha=alpha, beta=beta, an=an, bn=bn, ap=ap, bp=bp)
+  for (i in 1:nchains) 
+    inits[[i]] <- list(theta=runif(1), fn=runif(1), fp=runif(1))
+  para <- c("theta", "fn", "fp")
+  return(list(para=para, data=bugs.data, inits=inits, n.chains=nchains, model = "
+         data{
+          int n;
+          int y;
+          real alpha;
+          real beta;
+          real an;
+          real bn; 
+          real ap;
+          real bp; 
+         }
+         parameters{
+          real<lower=0,upper=1> theta;
+          real<lower=0,upper=1> fn;  
+          real<lower=0,upper=1> fp;  
+         }
+         model {
+          fn ~ beta(an, bn);
+          fp ~ beta(ap, bp);
+          theta ~ beta(alpha, beta);
+          y ~ binomial(n, theta*(1-fn)+(1-theta)*fp);
+         }
+         "))
+}
+input.to.stan <- stan.input2()
+fitB <- stan(model_code = input.to.stan$model, data=input.to.stan$data, 
+            init = input.to.stan$inits, pars = input.to.stan$para, 
+            iter = 1, chains = input.to.stan$n.chains)
+fitB2 <- stan(fit=fitB, data = input.to.stan$data,
+             init=input.to.stan$inits, pars=input.to.stan$para,
+             iter = 500000, chains = input.to.stan$n.chains, thin=700)
+print(fitB2)
+```
+
+## 95% intervals
+
+Calculates the shortest posterior interval of $\theta$.
+
+```{r}
+draws_1 = extract(fitB2, pars=c("theta"))
+print(spin(draws_1[["theta"]], lower=0, upper=1, conf=0.95))
+```
+
+We evaluated the uncertainty on the prevalence of chaos as detected with three different chaos detection methods in Rogers et al. (*Nat. Ecol. Evol.*, 2022). Our results are reported in Supplementary Table 1. Likewise, for the justification of prior choice, see our Supplementary Discussion.
