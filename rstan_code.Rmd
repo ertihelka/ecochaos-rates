@@ -97,4 +97,4 @@ draws_1 = extract(fitB2, pars=c("theta"))
 print(spin(draws_1[["theta"]], lower=0, upper=1, conf=0.95))
 ```
 
-We evaluated the uncertainty on the prevalence of chaos as detected with three different chaos detection methods in Rogers et al. (*Nat. Ecol. Evol.*, 2022). Our results are reported in Supplementary Table 1. Likewise, for the justification of prior choice, see our Supplementary Discussion.
+We evaluated the uncertainty on the prevalence of chaos as reported with three different chaos detection methods in Rogers et al. (*Nat. Ecol. Evol.*, 2022). Our results are provided in Supplementary Table 1 associated with our paper. Likewise, for the justification of prior choice, see our Supplementary Discussion.
