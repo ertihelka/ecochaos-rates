@@ -1,0 +1,177 @@
+MainID,Rogers et al. chaos tests,,,Determinism tests,,,Adjusted probability of chaos
+,LE,RQA,PE,NPE,NPE class,KDE class,
+1,not chaotic,not chaotic,chaotic,0.6910312,deterministic,stochastic,0.154066
+56,not chaotic,not chaotic,chaotic,0.1155321,stochastic,stochastic,0.0128419
+57,not chaotic,not chaotic,chaotic,NaN,NaN,deterministic,0.3456198
+58,not chaotic,chaotic,chaotic,NaN,NaN,deterministic,0.857518
+59,not chaotic,not chaotic,not chaotic,NaN,NaN,NaN,0.03914069
+60,not chaotic,chaotic,not chaotic,NaN,NaN,stochastic,0.1379763
+61,not chaotic,chaotic,chaotic,0.3815755,stochastic,deterministic,0.3006444
+64,not chaotic,not chaotic,chaotic,NaN,NaN,stochastic,0.154066
+65,not chaotic,not chaotic,not chaotic,NaN,NaN,NaN,0.03914069
+1150,not chaotic,not chaotic,chaotic,-0.3541412,stochastic,stochastic,0.0128419
+1153,not chaotic,not chaotic,chaotic,NaN,NaN,NaN,0.3456198
+1154,not chaotic,chaotic,not chaotic,-0.9824252,stochastic,stochastic,0.01130369
+1155,not chaotic,chaotic,chaotic,NaN,NaN,NaN,0.857518
+1157,not chaotic,not chaotic,not chaotic,0.567366,stochastic,stochastic,0.001002322
+1158,not chaotic,not chaotic,chaotic,NaN,NaN,stochastic,0.154066
+1159,not chaotic,not chaotic,not chaotic,-0.8737433,stochastic,stochastic,0.001002322
+1161,not chaotic,not chaotic,not chaotic,NaN,NaN,deterministic,0.03914069
+1162,not chaotic,not chaotic,chaotic,0.09360174,stochastic,stochastic,0.0128419
+1163,not chaotic,not chaotic,chaotic,0.2249492,stochastic,stochastic,0.0128419
+1166,not chaotic,chaotic,not chaotic,0.2790034,stochastic,deterministic,0.03209148
+1169,not chaotic,not chaotic,chaotic,0.5116851,stochastic,stochastic,0.0128419
+1170,not chaotic,not chaotic,not chaotic,NaN,NaN,deterministic,0.03914069
+1173,not chaotic,not chaotic,chaotic,0.1995236,stochastic,deterministic,0.03635446
+1176,not chaotic,not chaotic,not chaotic,-0.28586,stochastic,stochastic,0.001002322
+1178,not chaotic,chaotic,chaotic,-0.3926612,stochastic,stochastic,0.0128419
+1179,not chaotic,not chaotic,not chaotic,0.7992323,deterministic,deterministic,0.03914069
+1180,not chaotic,not chaotic,not chaotic,-0.03255079,stochastic,deterministic,0.002901208
+1181,not chaotic,chaotic,not chaotic,NaN,NaN,deterministic,0.3170224
+1182,not chaotic,not chaotic,not chaotic,-0.8468195,stochastic,deterministic,0.002901208
+1183,not chaotic,not chaotic,not chaotic,0.7406974,deterministic,deterministic,0.03914069
+1184,not chaotic,not chaotic,chaotic,-0.3048614,stochastic,stochastic,0.0128419
+1187,not chaotic,not chaotic,not chaotic,-0.258973,stochastic,deterministic,0.002901208
+1188,chaotic,not chaotic,not chaotic,0.5474594,stochastic,stochastic,0.4332313
+1189,not chaotic,not chaotic,not chaotic,0.7833912,deterministic,stochastic,0.01385201
+1211,not chaotic,not chaotic,chaotic,-0.8010952,stochastic,deterministic,0.03635446
+1213,not chaotic,not chaotic,chaotic,-1.587885,stochastic,stochastic,0.0128419
+1347,chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.9646323
+1869,not chaotic,not chaotic,chaotic,0.1947874,stochastic,deterministic,0.03635446
+2721,not chaotic,not chaotic,chaotic,0.5562465,stochastic,stochastic,0.0128419
+2722,not chaotic,not chaotic,not chaotic,0.6801456,deterministic,deterministic,0.03914069
+2726,not chaotic,not chaotic,not chaotic,-0.2341112,stochastic,stochastic,0.001002322
+2759,not chaotic,not chaotic,not chaotic,-0.6828032,stochastic,stochastic,0.001002322
+2770,not chaotic,not chaotic,not chaotic,-0.2395613,stochastic,stochastic,0.001002322
+2771,not chaotic,not chaotic,chaotic,-0.7959109,stochastic,NaN,0.03635446
+2772,not chaotic,chaotic,not chaotic,NaN,NaN,deterministic,0.3170224
+2773,not chaotic,chaotic,chaotic,NaN,NaN,NaN,0.857518
+2775,not chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.3170224
+2777,not chaotic,chaotic,chaotic,NaN,NaN,NaN,0.857518
+5019,not chaotic,not chaotic,chaotic,0.9485615,deterministic,deterministic,0.3456198
+5020,not chaotic,not chaotic,chaotic,NaN,NaN,stochastic,0.154066
+5021,not chaotic,not chaotic,not chaotic,-2.324039,stochastic,stochastic,0.001002322
+5037,not chaotic,chaotic,chaotic,0.7983171,deterministic,stochastic,0.6748306
+5039,not chaotic,not chaotic,not chaotic,0.2756185,stochastic,NaN,0.002901208
+5040,chaotic,chaotic,chaotic,0.1204086,stochastic,deterministic,0.9619187
+5043,chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.9646323
+5044,not chaotic,chaotic,chaotic,NaN,NaN,deterministic,0.857518
+6104,not chaotic,chaotic,chaotic,-0.1915255,stochastic,deterministic,0.3006444
+6105,not chaotic,chaotic,chaotic,-2.838839,stochastic,deterministic,0.3006444
+6106,not chaotic,chaotic,chaotic,-0.06819659,stochastic,deterministic,0.3006444
+6107,not chaotic,chaotic,chaotic,-0.3605144,stochastic,deterministic,0.3006444
+6109,not chaotic,not chaotic,chaotic,0.01446779,stochastic,deterministic,0.03635446
+6110,not chaotic,chaotic,not chaotic,-0.005397478,stochastic,deterministic,0.03209148
+6111,not chaotic,not chaotic,chaotic,-0.06814886,stochastic,deterministic,0.03635446
+6112,not chaotic,not chaotic,chaotic,NaN,NaN,deterministic,0.3456198
+6114,not chaotic,not chaotic,chaotic,0.2473754,stochastic,deterministic,0.03635446
+6115,not chaotic,chaotic,chaotic,0.197371,stochastic,deterministic,0.3006444
+6116,not chaotic,not chaotic,chaotic,0.3300696,stochastic,deterministic,0.03635446
+6117,not chaotic,chaotic,chaotic,0.1723453,stochastic,deterministic,0.3006444
+6118,not chaotic,not chaotic,chaotic,0.04868026,stochastic,deterministic,0.03635446
+6119,not chaotic,not chaotic,chaotic,0.08823016,stochastic,deterministic,0.03635446
+6120,not chaotic,chaotic,chaotic,0.00521614,stochastic,deterministic,0.3006444
+6121,not chaotic,chaotic,not chaotic,-0.3264048,stochastic,deterministic,0.03209148
+6122,not chaotic,chaotic,chaotic,-2.181932,stochastic,deterministic,0.3006444
+6125,chaotic,chaotic,not chaotic,0.2394064,stochastic,deterministic,0.146005
+6126,not chaotic,not chaotic,chaotic,0.7897696,deterministic,deterministic,0.3456198
+6127,not chaotic,chaotic,not chaotic,-0.8268578,stochastic,deterministic,0.03209148
+6128,not chaotic,chaotic,not chaotic,0.01065508,stochastic,deterministic,0.03209148
+6129,not chaotic,not chaotic,not chaotic,-0.02265034,stochastic,stochastic,0.001002322
+6130,chaotic,chaotic,not chaotic,-0.4753217,stochastic,deterministic,0.146005
+6131,not chaotic,chaotic,chaotic,0.07212209,stochastic,deterministic,0.3006444
+6132,not chaotic,not chaotic,not chaotic,0.137494,stochastic,deterministic,0.002901208
+6133,not chaotic,not chaotic,chaotic,0.5976137,stochastic,deterministic,0.03635446
+6134,not chaotic,not chaotic,chaotic,0.2835033,stochastic,deterministic,0.03635446
+6135,not chaotic,chaotic,chaotic,0.3427232,stochastic,deterministic,0.3006444
+6136,not chaotic,not chaotic,chaotic,0.3160343,stochastic,deterministic,0.03635446
+6138,not chaotic,chaotic,not chaotic,-0.1600428,stochastic,deterministic,0.03209148
+6139,not chaotic,not chaotic,not chaotic,0.07243007,stochastic,deterministic,0.002901208
+6140,not chaotic,chaotic,not chaotic,-0.09673385,stochastic,deterministic,0.03209148
+6141,chaotic,not chaotic,not chaotic,-0.07785667,stochastic,deterministic,0.146005
+6524,chaotic,chaotic,not chaotic,0.05858055,stochastic,deterministic,0.146005
+6525,not chaotic,chaotic,not chaotic,0.1046642,stochastic,deterministic,0.03209148
+6528,not chaotic,chaotic,not chaotic,-0.4288477,stochastic,deterministic,0.03209148
+6529,not chaotic,not chaotic,not chaotic,NaN,NaN,NaN,0.03914069
+6530,not chaotic,not chaotic,chaotic,0.5929955,stochastic,stochastic,0.0128419
+6633,not chaotic,not chaotic,chaotic,0.470549,stochastic,NaN,0.03635446
+6635,not chaotic,not chaotic,not chaotic,0.02705729,stochastic,stochastic,0.001002322
+6768,not chaotic,not chaotic,chaotic,NaN,NaN,deterministic,0.3456198
+6789,not chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.3170224
+6791,not chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.3170224
+6798,not chaotic,chaotic,chaotic,NaN,NaN,NaN,0.857518
+6801,not chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.3170224
+6807,not chaotic,chaotic,chaotic,0.01178413,stochastic,NaN,0.3006444
+6820,not chaotic,not chaotic,not chaotic,-0.1702619,stochastic,NaN,0.002901208
+6821,not chaotic,chaotic,not chaotic,NaN,NaN,NaN,0.3170224
+6822,not chaotic,chaotic,chaotic,NaN,NaN,NaN,0.857518
+6825,not chaotic,chaotic,not chaotic,0.1293237,stochastic,NaN,0.03209148
+6832,not chaotic,not chaotic,chaotic,0.09080115,stochastic,NaN,0.03635446
+6837,not chaotic,not chaotic,not chaotic,0.04716351,stochastic,NaN,0.002901208
+6848,not chaotic,not chaotic,not chaotic,0.08770064,stochastic,NaN,0.002901208
+6851,not chaotic,not chaotic,not chaotic,0.2201093,stochastic,NaN,0.002901208
+6859,not chaotic,chaotic,chaotic,0.1531399,stochastic,NaN,0.3006444
+6860,not chaotic,chaotic,not chaotic,-0.3608958,stochastic,NaN,0.03209148
+7065,not chaotic,not chaotic,not chaotic,0.2732027,stochastic,deterministic,0.002901208
+9191,not chaotic,not chaotic,not chaotic,0.5508196,stochastic,stochastic,0.001002322
+9192,not chaotic,chaotic,not chaotic,0.08807822,stochastic,deterministic,0.03209148
+9194,not chaotic,not chaotic,not chaotic,0.9069026,deterministic,stochastic,0.01385201
+9200,not chaotic,not chaotic,not chaotic,0.6120265,stochastic,stochastic,0.001002322
+9232,not chaotic,chaotic,chaotic,-0.2967327,stochastic,stochastic,0.0128419
+9338,not chaotic,not chaotic,chaotic,0.8733602,deterministic,stochastic,0.154066
+9381,not chaotic,not chaotic,chaotic,0.04898694,stochastic,deterministic,0.03635446
+9382,not chaotic,not chaotic,not chaotic,-4.367716,stochastic,stochastic,0.001002322
+9391,not chaotic,chaotic,not chaotic,NaN,NaN,stochastic,0.1379763
+9393,chaotic,chaotic,not chaotic,NaN,NaN,deterministic,0.9646323
+9404,not chaotic,chaotic,chaotic,NaN,NaN,stochastic,0.6748306
+9469,chaotic,chaotic,not chaotic,0.3947048,stochastic,stochastic,0.4332313
+9470,not chaotic,chaotic,not chaotic,-1.008867,stochastic,deterministic,0.03209148
+9488,not chaotic,not chaotic,not chaotic,-0.4324639,stochastic,stochastic,0.001002322
+9489,not chaotic,not chaotic,chaotic,-0.2306754,stochastic,stochastic,0.0128419
+9490,not chaotic,not chaotic,chaotic,0.7650593,deterministic,deterministic,0.3456198
+9491,not chaotic,not chaotic,chaotic,-0.1167173,stochastic,deterministic,0.03635446
+9492,not chaotic,not chaotic,chaotic,NaN,NaN,stochastic,0.154066
+9493,not chaotic,chaotic,chaotic,0.1023923,stochastic,deterministic,0.3006444
+9494,not chaotic,chaotic,chaotic,0.3504458,stochastic,stochastic,0.0128419
+9495,not chaotic,not chaotic,not chaotic,0.17087,stochastic,stochastic,0.001002322
+9496,not chaotic,chaotic,chaotic,0.9140634,deterministic,stochastic,0.6748306
+9497,not chaotic,not chaotic,not chaotic,0.4793908,stochastic,deterministic,0.002901208
+9498,not chaotic,chaotic,chaotic,0.87385,deterministic,deterministic,0.857518
+9499,not chaotic,not chaotic,chaotic,0.3019364,stochastic,stochastic,0.0128419
+9500,not chaotic,not chaotic,chaotic,0.1753724,stochastic,stochastic,0.0128419
+9501,not chaotic,chaotic,chaotic,0.8969439,deterministic,deterministic,0.857518
+9502,not chaotic,not chaotic,not chaotic,0.6003437,stochastic,deterministic,0.002901208
+9503,chaotic,not chaotic,chaotic,0.8212377,deterministic,deterministic,0.9687833
+9517,not chaotic,not chaotic,not chaotic,0.7959951,deterministic,deterministic,0.03914069
+9518,not chaotic,not chaotic,not chaotic,-0.08333386,stochastic,stochastic,0.001002322
+9519,chaotic,not chaotic,chaotic,-0.2573418,stochastic,stochastic,0.4332313
+9586,not chaotic,not chaotic,not chaotic,-0.7692674,stochastic,deterministic,0.002901208
+9598,not chaotic,chaotic,chaotic,-1.170968,stochastic,deterministic,0.3006444
+9612,chaotic,chaotic,not chaotic,0.2179266,stochastic,deterministic,0.146005
+9643,not chaotic,chaotic,not chaotic,0.06300492,stochastic,stochastic,0.01130369
+9646,not chaotic,not chaotic,chaotic,-7.613011,stochastic,deterministic,0.03635446
+9688,not chaotic,chaotic,not chaotic,0.1776834,stochastic,deterministic,0.03209148
+9689,not chaotic,chaotic,not chaotic,-1.034701,stochastic,NaN,0.03209148
+9690,chaotic,not chaotic,chaotic,-0.5850023,stochastic,deterministic,0.6891249
+9691,not chaotic,chaotic,chaotic,0.238798,stochastic,deterministic,0.3006444
+9791,not chaotic,not chaotic,not chaotic,0.7506494,deterministic,stochastic,0.01385201
+9792,not chaotic,not chaotic,not chaotic,-0.5247316,stochastic,stochastic,0.001002322
+9793,not chaotic,not chaotic,not chaotic,0.1815947,stochastic,deterministic,0.002901208
+9794,not chaotic,not chaotic,chaotic,0.1821464,stochastic,stochastic,0.0128419
+9795,not chaotic,not chaotic,chaotic,0.6149499,stochastic,stochastic,0.0128419
+9796,not chaotic,not chaotic,chaotic,-0.4807341,stochastic,stochastic,0.0128419
+9797,chaotic,not chaotic,chaotic,-0.6131907,stochastic,stochastic,0.4332313
+9833,not chaotic,chaotic,chaotic,0.6336515,stochastic,NaN,0.3006444
+9834,not chaotic,chaotic,not chaotic,0.8289802,deterministic,stochastic,0.1379763
+9893,not chaotic,not chaotic,not chaotic,-0.1233551,stochastic,stochastic,0.001002322
+9894,chaotic,not chaotic,chaotic,-0.2305003,stochastic,stochastic,0.4332313
+9917,not chaotic,not chaotic,chaotic,-0.1008582,stochastic,deterministic,0.03635446
+9918,not chaotic,not chaotic,not chaotic,NaN,NaN,deterministic,0.03914069
+9919,not chaotic,chaotic,not chaotic,0.002188207,stochastic,deterministic,0.03209148
+9920,not chaotic,not chaotic,chaotic,-0.05000009,stochastic,deterministic,0.03635446
+9921,not chaotic,chaotic,not chaotic,0.04224795,stochastic,stochastic,0.01130369
+9923,not chaotic,not chaotic,not chaotic,0.1569227,stochastic,deterministic,0.002901208
+9949,not chaotic,chaotic,chaotic,-0.01756994,stochastic,deterministic,0.3006444
+9950,not chaotic,chaotic,chaotic,NaN,NaN,deterministic,0.857518
+9953,chaotic,chaotic,chaotic,0.1101054,stochastic,stochastic,0.8970156
+9955,not chaotic,chaotic,not chaotic,0.4111533,stochastic,stochastic,0.01130369
